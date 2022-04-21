@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recordTarget>
+	<patientRole>
+		<id root="2.16.840.1.113883.4.1" extension="000003153"/>
+		<addr>
+				<streetAddressLine>654 W Orange Avenue</streetAddressLine>
+				<city>Onsted</city>
+				<state>MI</state>
+				<postalCode>49265</postalCode>
+				<country>USA</country>
+
+		</addr>
+		<telecom use="MC" value="tel: +1 517-555-2751"/>
+		<patient>
+				<name>
+						<given>Matthew</given>
+						<given>Warren</given>
+						<family>McMillan</family>
+
+				</name>
+				<administrativeGenderCode codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 Administrative Gender" code="M"/>
+				<birthTime value="19560926"/>
+				<maritalStatusCode code="Single"/>
+				<raceCode codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race and Ethnicity - CDC" code="2106-3" displayName="White"/>
+				<ethnicGroupCode codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race and Ethnicity - CDC" code="2186-5" displayName="Not Hispanic or Latino"/>
+				<languageCommunication>
+						<languageCode code="en"/>
+						<modeCode codeSystem="2.16.840.1.113883.5.60" codeSystemName="LanguageAbilityMode" code="ESP" displayName="Expressed spoken"/>
+						<proficiencyLevelCode codeSystem="2.16.840.1.113883.5.61" codeSystemName="LanguageAbilityProficiency" code="G" displayName="Good"/>
+						<preferenceInd value="true"/>
+
+				</languageCommunication>
+
+		</patient>
+</patientRole>
+</recordTarget>
